@@ -18,7 +18,7 @@ include('MyDb.php');
 
 <body>
     <?php
-    $Db = new MyDb();
+    $Db = new Controller();
     $id_warga = $_GET['id'];
     $data_warga = $Db->showWarga($id_warga);
     // print_r($data_warga);

@@ -18,7 +18,7 @@ include('MyDb.php');
 
 <body>
     <?php
-    $Db = new MyDb();
+    $Db = new Controller();
     $data_warga = $Db->indexWarga();
     // print_r($data_warga);
 
