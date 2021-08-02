@@ -1,6 +1,6 @@
 <?php
 // include file MyDb
-include('MyDb.php');
+include('Controller.php');
 ?>
 <!doctype html>
 <html lang="en">
