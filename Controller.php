@@ -1,5 +1,7 @@
 <?php
 
+require 'MyDb.php';
+
 class Controller extends MyDb
 {
     public function indexWarga()
